@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Local environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local caches and dependencies
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
